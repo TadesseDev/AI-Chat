@@ -1,4 +1,5 @@
 const http = require("http");
+require("dotenv").config();
 const { hostname } = require("os");
 const port = 4000;
 
